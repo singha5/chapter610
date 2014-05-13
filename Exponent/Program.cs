@@ -30,9 +30,9 @@ namespace Exponent
 
             int squ = exponent(n);
 
-            int cbu = cube(n);
+            int cb = cube(n);
 
-            Console.WriteLine("{0} = squared, {1} = cubed", squ, cbu);
+            Console.WriteLine("{0} = squared, {1} = cubed", squ, cb);
         }
     }
 }

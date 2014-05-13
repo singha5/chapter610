@@ -43,11 +43,11 @@ namespace InchesToYards
 
 
 
-            int result = InchesToYards(inches);
-            int result2 = InchesToFeet(inches);
-            int result3 = InchesToInches(inches);
+            int ans = InchesToYards(inches);
+            int ans1 = InchesToFeet(inches);
+            int ans2 = InchesToInches(inches);
 
-            Console.WriteLine("{0} Yards {1} Feet {2} Inches", result,result2,result3);
+            Console.WriteLine("{0} Yards {1} Feet {2} Inches", ans,ans1,ans2);
 
 
 
